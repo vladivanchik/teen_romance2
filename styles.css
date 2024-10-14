@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/adlery-pro');
+@import url('https://fonts.cdnfonts.com/css/arturo');
+body {
+    background-color: #ded8cb;
+}
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arturo', sans-serif;
+    font-size: 30px;
+    color: #004aad;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.for_h1_index{
+    font-family: 'Adlery Pro', sans-serif;
+    font-size:55px;
+    color:#960000;
+    text-align: center;
+}
+.button_container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+.yes-button {
+    background-color: #004aad;
+    width: 215px;
+    height: 95px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.no-button {
+    border-radius: 40px;
+    background-color: #960000;
+    width: 215px;
+    height: 95px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.flip-horizontally {
+    transform: scaleX(-1);
+  }
